@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: #F9FAF8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.toppage {
+background-color: #1f2937;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+height: auto;
+padding: 1em;
+}
+
+.secondtop {
+background-color: #1f2937;
+color: white;
+height: auto;
+width: auto;
+padding-left: 20px;
+display: flex;
+align-items: center;
+margin: 0;
+position: relative;
+}
+
+.content-left {
+    flex: 1;
+    flex-basis: auto;
+    padding: 80px;
+}
+
+.content-right {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    height: auto;
+    max-width: 100%;
+    width: 1200px;
+}
+
+.content-left {
+    margin: 80px;
+}
+
+
+
+img {
+    max-width: 100%;
+    position: relative;
+}
+
+.randominfo {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.roundedimages {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+#img1, #img2, #img3, #img4 {
+    border-radius: 30px;
+    border: 5px solid #3882F6;
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.awesomesite {
+    max-width: 100%;
+    font-size: xx-large;
+}
+
+.awesomedesc {
+margin: 2px;
+max-width: 75%;
+font-size: 18px;
+}
+
+.btn {
+        margin-top: 50px;
+        display: inline-block;
+        position: relative;
+outline: none;
+font-weight: bold;
+text-decoration: none;
+}
+
+.btn {
+    margin-top: 50px;
+    background-color: #3882F6;
+    color: white
+    display: inline-block;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 15px
+}
+
+.thirdsec {
+    margin: 0;
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 5em 15em;
+    justify-content: space-between;
+}
+
+.italictext {
+    font-size: 50px;
+    margin: 120px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 100%;
+    float: left;
+}
+
+.thorquote {
+
+    font-size: 30px;
+    text-align: right;
+    margin-right: 120px;    
+    max-width: 100%;
+    float: right;
+}
