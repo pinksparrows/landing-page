@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: #F9FAF8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 body {
@@ -18,6 +19,7 @@ justify-content: space-around;
 align-items: center;
 height: auto;
 padding: 1em;
+font-size: 25px;
 }
 
 .secondtop {
@@ -123,8 +125,8 @@ text-decoration: none;
 }
 
 .italictext {
-    font-size: 50px;
-    margin: 120px;
+    font-size: 45px;
+    margin: 10px;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -135,9 +137,79 @@ text-decoration: none;
 
 .thorquote {
 
-    font-size: 30px;
+    font-size: 20px;
     text-align: right;
-    margin-right: 120px;    
+    margin-right: 0px;  
+    margin-top: 50px;      
     max-width: 100%;
     float: right;
+}
+
+.whitebackground {
+
+    height: 600px;
+    width: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calltoaction {
+
+    text-align: center;
+    background-color: #3882F6;
+    border-radius: 50px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 1000px;
+
+}
+
+.itstime {
+    flex: 1;
+margin-right: 20px;
+text-align: left;
+
+}
+
+.signup {
+    display: flex;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.bton {
+    margin-top: 0px;
+    margin-right: 25px;
+    background-color: #3882F6;
+    border: white;
+    color: white
+    display: inline-block;
+    padding: 10px 32px;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.bton:hover,
+.bton:visited,
+.bton:active {
+    color: white; /* Change the color on hover, visited, and active states */
+    text-decoration: none; /* Remove underlines on hover, visited, and active states */
+}
+
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 2em;
 }
